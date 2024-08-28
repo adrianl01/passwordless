@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "firebase-admin": "^12.4.0",
+    "micro-method-router": "^0.1.0",
+    "next": "^14.2.5",
+    "random-seed": "^0.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vercel": "^36.0.0"
+  },
+  "name": "passwordless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3"
+  }
+}
