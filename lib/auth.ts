@@ -17,6 +17,7 @@ export class Auth {
         this.ref.update(this.data)
     }
     static async findByEmail(email: string) {
+        console.log(email)
         const cleanEmail = email.trim().toLowerCase();
         const results = await collection.where("email", "==", cleanEmail).get()
         if (results.docs.length) {
